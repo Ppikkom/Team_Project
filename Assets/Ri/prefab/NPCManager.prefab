@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6035062917741775503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1137206968727879104}
+  - component: {fileID: 3046578209800789128}
+  m_Layer: 0
+  m_Name: NPCManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1137206968727879104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035062917741775503}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 130.21161, y: 39.462036, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3046578209800789128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035062917741775503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d68b4e2fcd84134582f9290735f9df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitPoolSize: 5
+  "NPC\uD504\uB9AC\uD339\uBAA9\uB85D":
+  - "\uC774\uB984": "\uC77C\uBC18\uC2B9\uAC1D1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: ddc3f0fb03b0edd45bfd4d0612061d0f, type: 3}
+  - "\uC774\uB984": "\uB0A8\uD559\uC0DD1_1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 6fa741687a2a42648a114528e963d905, type: 3}
+  - "\uC774\uB984": "\uB0A8\uD559\uC0DD2_1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: bcba419af92bc8b43b2ae0fc1afd33c6, type: 3}
+  - "\uC774\uB984": "\uB300\uBA38\uB9AC\uC544\uC800\uC5281"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 8553eca25a8a5bc4b961353d0b246bb0, type: 3}
+  - "\uC774\uB984": "\uBC18\uBC14\uC9C0_\uB0A8\uC1311"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: f0eb567e70c1e0b4c916223816c4ca41, type: 3}
+  - "\uC774\uB984": "\uC154\uCE20\uB0A8\uC1311"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 8299569b75e9c7b44993551146a5b467, type: 3}
+  - "\uC774\uB984": "\uC154\uCE20\uC5EC\uC1311"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: a31fec7f173a35548bae383e210382df, type: 3}
+  - "\uC774\uB984": "\uC5EC\uD559\uC0DD1_1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 9073893fa3ee7144a923770533c170fc, type: 3}
+  - "\uC774\uB984": "\uC5EC\uD559\uC0DD2_1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: dca39213aaacfca489d523cbf3d88d29, type: 3}
+  - "\uC774\uB984": "\uD68C\uC0AC\uC6D01_1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 091e92d992dc33045a8ae36f66f92a9f, type: 3}
+  - "\uC774\uB984": "\uD68C\uC0AC\uC6D02_1"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 64a9beda7655b544899dfb1a31b347fe, type: 3}
+  - "\uC774\uB984": "\uC77C\uBC18\uC2B9\uAC1D2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: ea1ab9bb2ca4c91478eecb282c7341a4, type: 3}
+  - "\uC774\uB984": "\uB0A8\uD559\uC0DD1_2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 6499289f861c9a7478a078269c9fabf2, type: 3}
+  - "\uC774\uB984": "\uB0A8\uD559\uC0DD2_2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 449d0145dc1a08e47b72a5570255275f, type: 3}
+  - "\uC774\uB984": "\uB300\uBA38\uB9AC\uC544\uC800\uC5282"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 041704c880f30cc4b88f0ee63641ebc3, type: 3}
+  - "\uC774\uB984": "\uBC18\uBC14\uC9C0_\uB0A8\uC1312"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: c6bd3272bbff17a429edb4086ac73c63, type: 3}
+  - "\uC774\uB984": "\uC154\uCE20\uB0A8\uC1312"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: c216d540da2945b40b3a90a13dd308d4, type: 3}
+  - "\uC774\uB984": "\uC154\uCE20\uC5EC\uC1312"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 29e5aa0bfc1c72f468aa6750414ddeee, type: 3}
+  - "\uC774\uB984": "\uC5EC\uD559\uC0DD1_2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 74c38d02cf1e3364a8ff97420d163c82, type: 3}
+  - "\uC774\uB984": "\uC5EC\uD559\uC0DD2_2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 247e9f7db6907724a8e1a20154063ac2, type: 3}
+  - "\uC774\uB984": "\uD68C\uC0AC\uC6D01_2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 714a964be5529e14e86ae529c42dfc7b, type: 3}
+  - "\uC774\uB984": "\uD68C\uC0AC\uC6D02_2"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 1e025615b52bf0b4fb1920963aec72fb, type: 3}
+  - "\uC774\uB984": "\uC77C\uBC18\uC2B9\uAC1D3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 034e3f93f15439a4c97382187da9706f, type: 3}
+  - "\uC774\uB984": "\uB0A8\uD559\uC0DD1_3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 1213264a11f5fdb4582d61faa3f8d0c0, type: 3}
+  - "\uC774\uB984": "\uB0A8\uD559\uC0DD2_3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 9012561c8da32e94c8063bced457cca3, type: 3}
+  - "\uC774\uB984": "\uB300\uBA38\uB9AC\uC544\uC800\uC5283"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 383c59dee64094b42933e6227302005a, type: 3}
+  - "\uC774\uB984": "\uBC18\uBC14\uC9C0_\uB0A8\uC1313"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 071333f7d5422e342a41c4a02432d0e5, type: 3}
+  - "\uC774\uB984": "\uC154\uCE20\uB0A8\uC1313"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 30f4ded831f88614486c33aff8a1df45, type: 3}
+  - "\uC774\uB984": "\uC154\uCE20\uC5EC\uC1313"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: cc5b4aba9fd4fc740bc2fd9653526734, type: 3}
+  - "\uC774\uB984": "\uC5EC\uD559\uC0DD1_3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: ffe7c4e2145dfb94abb7d5ce9c0dd47a, type: 3}
+  - "\uC774\uB984": "\uC5EC\uD559\uC0DD2_3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 247e9f7db6907724a8e1a20154063ac2, type: 3}
+  - "\uC774\uB984": "\uD68C\uC0AC\uC6D01_3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: b119144cc6606e34dafdc5eccab10ebf, type: 3}
+  - "\uC774\uB984": "\uD68C\uC0AC\uC6D02_3"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 5e109d96940d8cb47bb69409d25b7b3c, type: 3}
+  - "\uC774\uB984": "\uD22C\uAE301"
+    "\uD504\uB9AC\uD339": {fileID: 926018434810643879, guid: e2cfafa6296992e4e86cc71e9eea4ea3, type: 3}
+  - "\uC774\uB984": "\uC8FC\uCDE8\uC0AC1"
+    "\uD504\uB9AC\uD339": {fileID: 7903085440883081776, guid: ab690f9d88fae4a4491a2886667c508a, type: 3}
+  - "\uC774\uB984": "\uC0AC\uC774\uBE441"
+    "\uD504\uB9AC\uD339": {fileID: 926018434810643879, guid: 65211630a0483be45987a118deec1fa7, type: 3}
+  - "\uC774\uB984": "\uB0A8\uC790\uAD6C\uD1A01"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: b0332424b0047cf4fabbe3a9e7a38198, type: 3}
+  - "\uC774\uB984": "\uD22C\uAE302"
+    "\uD504\uB9AC\uD339": {fileID: 926018434810643879, guid: de47dd0a8c81dda43ad869302ce2aea6, type: 3}
+  - "\uC774\uB984": "\uC8FC\uCDE8\uC0AC2"
+    "\uD504\uB9AC\uD339": {fileID: 7903085440883081776, guid: cb42f56aec0229742b03d2dbf99c472d, type: 3}
+  - "\uC774\uB984": "\uC0AC\uC774\uBE442"
+    "\uD504\uB9AC\uD339": {fileID: 926018434810643879, guid: 53f9eb53fb4b1d9498a560b88df46bec, type: 3}
+  - "\uC774\uB984": "\uB0A8\uC790\uAD6C\uD1A02"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 8ef9fca3979d7314e894acd32c0b1892, type: 3}
+  - "\uC774\uB984": "\uD22C\uAE303"
+    "\uD504\uB9AC\uD339": {fileID: 926018434810643879, guid: f8bdfbb2d0117fb48aeadfbf96fd68c0, type: 3}
+  - "\uC774\uB984": "\uC8FC\uCDE8\uC0AC3"
+    "\uD504\uB9AC\uD339": {fileID: 7903085440883081776, guid: c427e21c63d7e8f4f97a9dca8ff70f10, type: 3}
+  - "\uC774\uB984": "\uC0AC\uC774\uBE443"
+    "\uD504\uB9AC\uD339": {fileID: 926018434810643879, guid: c6dcd597f8417fa499decbce7b913887, type: 3}
+  - "\uC774\uB984": "\uB0A8\uC790\uAD6C\uD1A03"
+    "\uD504\uB9AC\uD339": {fileID: 4017612369284567879, guid: 181de0534704dcf4f986e83c6059d272, type: 3}
+  "\uC2A4\uD3F0\uB370\uC774\uD130":
+  - "\uC774\uB984": "\uC5ED1\uBC88\uCD9C\uAD6C"
+    "\uC18C\uD658\uC8FC\uAE30": 50
+    "\uAC1C\uBCC4\uC18C\uD658\uC8FC\uAE30": 4
+    "\uC624\uD504\uC14B": 30
+  - "\uC774\uB984": "\uC5ED6\uBC88\uCD9C\uAD6C"
+    "\uC18C\uD658\uC8FC\uAE30": 30
+    "\uAC1C\uBCC4\uC18C\uD658\uC8FC\uAE30": 4
+    "\uC624\uD504\uC14B": 0
